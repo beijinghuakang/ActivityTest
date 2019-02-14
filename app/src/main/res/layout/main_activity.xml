@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="button 7"
+    android:id="@+id/button_7"
+    />
+
+<EditText android:id="@+id/edit_Text"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="Type something here"
+    android:maxLines="2"/>
+
+    <ProgressBar android:id="@+id/progress_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+style="?android:attr/progressBarStyleHorizontal"
+        android:max="100"
+        />
+</LinearLayout>
